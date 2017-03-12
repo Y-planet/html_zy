@@ -1,0 +1,47 @@
+
+body{font: 16px "Microsoft YaHei",cursive; background-color: #ccc}
+img{width: 250px;height:250px;}
+
+p b{font-weight:bold;}
+p a{color:blue;}
+
+h2{font-size: 20px;}
+h3{font-size:16px ;}
+
+
+
+
+#h4{font-size: 12px;}
+#top {background: black; height:100px;color:white;}
+#top > h1{font-size:: 20px;float: left;}
+#top ul{float: right;margin: 40px;}
+#top li{display:inline;font-size: 20px;}
+#top a{color: white; text-decoration:none;}
+
+.div {border: 1px solid gray ; margin:5px;padding: 10px; background-color: white; }
+#n0 li{list-style-type:none;}
+
+.picture{border:1px solid gray;
+	margin:50px;
+	padding:10px;
+	width: 250px;
+	height: 250px;
+	text-align:center;}
+.picture img{width: 200px;height:200px;}
+
+
+
+#demo-table {border-collapse:collapse;width: 300px;height: 100px;}
+#demo-table td,#demo-table tr,#demo-table th{border:solid gray;text-align: center;}
+#demo-table th{background: black;color:white;}
+#demo-table > tfoot {background: #ccc}
+
+
+#n1 {border: 5px solid gray ; margin:5px;padding: 10px; background-color: white; }
+#n1 p{text-align: center;}
+#n1 select{}
+#n1 button{background: dodgerblue;}
+
+
+#top1 {background: black; height:50px;text-align: center;color: white;
+	margin: 0;padding: 0;}
