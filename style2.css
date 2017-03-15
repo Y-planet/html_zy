@@ -4,7 +4,7 @@
 	padding:20px;
 	background:#eee;
 	border:1px solid #999;
-	min-height: 500px;
+	overflow: auto;
 
 	}
 	
@@ -16,6 +16,11 @@
 	position:relative;
 	float: left;
 }
+#right{
+	float: right;
+	width: 120px;
+	border: 1px solid #999;
+}	
 #name{
 	position: absolute;
 	border: none;
@@ -24,21 +29,14 @@
 }
 #center{
 	background: white;
-	position: absolute;
-	left: 280px;
-	right: 180px;
+	
+	margin-left: 240px;
+	margin-right: 180px;
 	padding: 20px;
 	border: 1px solid #999;	
 }	
 
-#right{
-	position:absolute;
-	right: 40px;
-	top: 40px;
-	width: 120px;
-	border: 1px solid #999;
-	
-}
+
 
 .picture{
 		width: 80px;
