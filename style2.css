@@ -1,0 +1,61 @@
+
+.div{
+	padding:20px;
+	background:#eee;
+	border:1px solid #999;
+
+	}
+
+#back{position: relative;
+	
+	}
+
+#left{
+	border: 1px solid;
+	
+	width: 200px;
+	height: 120px;
+	background: white;
+	position:absolute;
+
+}
+#center{
+	display:inline-block; 
+	background: white;
+	position:absolute;
+	left: 280px;
+	padding: 20px;
+	border: 1px solid #999;
+	
+}
+#right{
+	position: absolute;
+	right: 20px;
+
+	width: 120px;
+	height: 500px;
+	border: 1px solid #999;
+	
+
+}
+.picture{
+	width: 80px;
+		height: 80px;
+		position: relative;
+		padding: 20px;
+
+	}
+
+
+
+
+
+#name{
+
+	position: absolute;
+	border: none;
+	right: 20px;
+	top:20px;
+
+
+}
