@@ -1,0 +1,130 @@
+
+html,body{
+	font: 16px "SimHei"; 
+	background-color: #ccc;
+	margin: 0;
+	padding: 0;
+	border: none;
+	overflow: auto;
+}
+img{
+	width: 250px;
+	height:250px;
+}
+p a{color:blue;}
+h2{font-size: 20px;}
+h3{font-size:16px ;}
+#h4{font-size: 12px;}
+
+.div {
+	border: 1px solid gray ; 
+	margin:20px;
+	margin-right: 430px;
+	padding: 20px; 
+	background-color: white; 
+	border-style: outset;
+}
+
+#top {
+	background: black; 
+	height:60px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid;
+}
+
+#logo{font-size: 20px;
+	float: left;	
+	margin: 20px;
+	margin-left: 50px;
+	color:white;	
+}
+
+#top li{
+	font-size: 12px;
+	margin: 0;
+	padding: 10px;
+	float: right;	
+}
+
+#top a{color: white; text-decoration:none;}
+
+
+#list1 li{list-style-type:none;}
+
+.picture{border:1px solid gray;
+	margin:20px;
+	padding:20px;
+	float: left;
+	
+}
+#div4{overflow: auto;}
+.picture p{margin: 10px;
+	font-size:20px; 
+	text-align:center;}
+.picture img{width: 200px;
+	height:200px;
+	padding: 0;
+	margin: 0;}
+
+#demo-table {
+	border-collapse:collapse;
+	width: 100%;
+}
+#demo-table td,
+#demo-table tr,
+#demo-table th{
+	border:1px solid gray;
+	text-align: center;
+}
+#demo-table th{
+	background: black;
+	color:white;
+}
+#demo-table > tfoot {background: #ccc}
+
+
+#right{
+	float: right;
+	background: white;
+	border: 1px solid gray;
+	border-style: outset;
+	margin: 20px;
+	padding: 20px;
+	width: 350px;
+	
+}
+#right table {
+	border-collapse: collapse;
+	width: 100%;
+	
+}
+.td1{
+	text-align: right;
+	vertical-align: top;
+}
+.td2{
+	text-align: left;
+}
+
+#right td,
+#right tr{
+	padding: 10px;
+}
+#right input{height:20px; }
+#right textarea{width: 200px;height: 100px;}
+
+#right button{
+	background: #2826ff;
+	width: 100%;
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+}
+
+#bottom {background: black; 
+	height:40px;
+	text-align: center;
+	color: white;
+	margin: 0;padding: 20px;}
