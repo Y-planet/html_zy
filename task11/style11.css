@@ -1,0 +1,104 @@
+*{margin: 0;
+padding: 0;
+font-family: "Microsoft YaHei"}
+html,body{
+	max-width: 30em;
+
+	}
+.title{
+	width: 100%;
+	
+	background:#66cccc;
+	
+}
+.title a{
+	text-decoration:none;
+	float: left;
+	}
+.title h1{
+	color: #ffffff;
+	font-size: 1.5em;
+	line-height: 3em;
+
+}
+nav{
+	width: 100%;
+	background: #ffffff;
+	display:flex;
+}
+nav a{
+	text-decoration:none;
+	margin: 2em;
+}
+
+.pic img{
+	width: 100%;
+	height: 20em;
+}
+
+.icon{
+	display: flex;	
+	text-align: center;
+	border-bottom:1px solid gray;
+	
+}
+.icon div{	
+	margin:0.8em;
+	width: 100%;
+	height: 6em;
+}
+.icon div img{
+	width: 70%;
+	height: 4em;
+}
+
+.fenlan{
+	display:flex;
+}
+.fenlan div{
+	text-align: center;
+	margin: 1em 0;
+	padding: 0 1em;
+	border-right: 1px solid gray;
+}
+.ziti{
+	font-size:1.5em;
+}
+.fenlan div img{
+	width: 100%;
+}
+.box1{
+	margin-top: 2em;
+	padding: 0.5em;
+}
+.box1 h2{
+	line-height: 2em;
+}
+.box1 img{
+	width: 25%;
+	height: 50%;
+	margin:1em 0;
+}
+.box1 p{
+	width: 100%;
+	height: 25%;
+	background:gray;
+	margin: 1em;
+}
+.box11{
+	display:flex;
+}
+.wen{
+	width: 100%;
+	height: 8em;
+	padding: 1em;
+	border-bottom: 1px solid gray;
+}
+.wen img{
+	width: 30%;
+	height: 5em;
+
+}
+.wen h2{
+
+}
